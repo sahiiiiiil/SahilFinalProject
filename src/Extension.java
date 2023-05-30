@@ -3,7 +3,7 @@ import java.awt.Graphics;
 public class Extension extends JPanel{
     public void paintComponent(Graphics paint) {
         super.paintComponent(paint);
-        FlappyWorld.flappy.repaint(paint);
+        FlappyWorld.flappyWorld.repaint(paint);
 
     }
 }
